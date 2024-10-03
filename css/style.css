@@ -1,0 +1,352 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+header{
+    display: flex;
+    background-color: #1c282e;
+    padding: 1% 2%;
+    gap: 2%;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+header button{
+    border: none;
+    background-color: #1c282e;
+    
+}
+
+#inicio{
+    display: flex;
+    justify-content: center;
+    /*width: 100vw;*/
+    max-width: 100%;
+    padding: 0px;
+}
+
+#img{
+    width: 50vw;
+    padding-bottom: 0%;
+}
+
+#dev{
+    align-content: center;
+    text-align:end;
+    
+
+}
+
+
+
+h2{
+    display: flex;
+    text-align: end;
+    padding: 3% 2%;
+    
+    box-shadow: 0px 10px 10px rgba(106, 133, 149, 0.5);
+    
+}
+h4{
+    margin: 2%;
+    
+    color: rgb(106, 133, 149);
+}
+#dev h2,
+#dev h4{
+    margin: 0%;
+    box-shadow: none;
+}
+
+
+#sobre{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    box-shadow: 0px -10px 10px rgba(28, 40, 46, 0.7);
+    
+    
+    
+    
+}
+
+#habilidade{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+[id^='hab-'] {
+    margin-top: 5%;
+    
+}
+div h2{
+    margin: 5% 0;
+}
+.box{
+    position: relative;
+    width: 100%;
+    height: 80%;
+    background-color: #1c282e;
+    border-radius: 50%;
+    
+    
+
+    
+}
+
+.box img{
+    position: relative;
+    bottom: 45%;
+
+}
+#subHabilidade{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    background-color: rgb(106, 133, 149);
+
+
+}
+#brasil{
+    height: 25px;
+    width: 33px;
+    margin-top: 1%;
+}
+#icon{
+    height: 90px;
+    width: 100%;
+    
+
+}
+#caixaDes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:30px;
+    justify-items:center;
+
+}
+[class^='des-']{
+    width: 380px;
+    height: 230px;
+    background-color: #1c282e;
+    border-radius: 10px;
+    
+    
+}
+[class^='des-']:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.des-0{
+    background-image: url(/img/ingressos.png);
+    background-size: cover;
+    background-position: center;
+}
+.des-1{
+    background-image: url(/img/lojaPg.png);
+    background-size: cover;
+    background-position: center;
+}
+.des-2{
+    background-image: url(/img/listaMercado.png);
+    background-size: cover;
+    background-position: center;}
+
+#caixaPro{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:30px;
+    justify-items:center;
+    
+}
+[class^="pro-"]{
+    width: 375px;
+    height: 230px;
+    background-color: #1c282e;
+    border-radius: 10px;
+    
+}
+[class^='pro-']:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.pro-0{
+    background-image: url(/img/projetoXDevs.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+.pro-1{
+    background-image: url(/img/projetoQrCode.png);
+    background-size: cover;
+    background-position-x: -130px;
+
+}
+
+.pro-2{
+    background-image: url(/img/jogoPedraPapelTesoura.png);
+    background-size: cover;
+    background-position: center;
+}
+.pro-3{
+    background-image: url(/img/card.png);
+    background-size: cover;
+    background-position: center;
+}
+.pro-4{
+    background-image: url(/img/formulario.png);
+    background-size: cover;
+    background-position: center;
+}
+.pro-5{
+    background-image: url(/img/Link-Dev.png);
+    background-size: cover;
+    background-position: center;
+}
+.pro-6{
+    background-image: url(/img/ingressos.png);
+    background-size: cover;
+    background-position: center;
+}
+.pro-7{
+    background-image: url(/img/lojaPg.png);
+    background-size: cover;
+    background-position: center;
+}
+.pro-8{
+    background-image: url(/img/listaMercado.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#caixaCon{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    place-items: center;
+    margin-bottom: 5%;
+    
+
+}
+
+[class^='con-']{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    
+}
+span{
+    color: rgba(34, 187, 68, 0.8);
+}
+footer{
+    
+    width: 100%;
+    text-align: center;
+    
+}
+
+@media(max-width: 1000px){
+    #dev{
+        width: 50%;
+        text-align: end;
+    }
+    #img img{
+        width: 50%;
+    }
+    #caixaDes{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:30px;
+        justify-items:center;
+    
+    }   
+    #caixaPro{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:30px;
+        justify-items:center;
+}
+}
+
+.infProjeto{
+    
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(28, 40, 46, 0.97);
+    z-index: 10;
+    top: 10%;
+    left: 0px;
+    
+    display: none;
+    justify-content: center;
+    color: white;
+    
+    
+    
+}
+#fechar{
+    position: absolute;
+    right: 3%;
+    top: 3%;
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: large;
+}
+#infHeader{
+    margin-top: 2%;
+    
+    text-align: center;
+    
+}
+
+#imgDescriçao img{
+    max-width: 50vw;
+    
+
+}
+
+
+
+#infDescriçao{
+    display: flex;
+    max-width: 100%;
+    
+    margin: 2%;
+    gap: 2%;
+    
+    
+    
+}
+
+#Descriçao{
+
+
+}
+
+#bt{
+    display: flex;
+    justify-content: space-around;
+        
+}
+
+#bt button{
+
+    color: white;
+    border: 1px solid white;
+    padding: 1%;
+    background-color: transparent;
+
+}
+a {
+    color: inherit; /* Herda a cor do elemento pai */
+    text-decoration: none; /* Remove o sublinhado */
+  }
