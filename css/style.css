@@ -311,8 +311,11 @@ footer{
 #imgDescriçao img{
     max-width: 50vw;
     
+    
 
 }
+
+
 
 
 
@@ -327,10 +330,7 @@ footer{
     
 }
 
-#Descriçao{
 
-
-}
 
 #bt{
     display: flex;
@@ -350,3 +350,29 @@ a {
     color: inherit; /* Herda a cor do elemento pai */
     text-decoration: none; /* Remove o sublinhado */
   }
+
+  #menu{
+    color: aliceblue;
+    cursor: pointer;
+}
+#sidebar {
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    left: -25%;
+    transition: left 0.3s;
+    background-color: #333;
+    color: white;
+    margin-top: 4%;
+    z-index: 1;
+}
+#sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+#sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
