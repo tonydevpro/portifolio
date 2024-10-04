@@ -146,9 +146,10 @@ div h2{
     cursor: pointer;
 }
 .des-0{
-    background-image: url(img/ingressos.png);
+    background-image: url(/img/ingressos.png);
     background-size: cover;
     background-position: center;
+    z-index: 1;
 }
 .des-1{
     background-image: url(img/lojaPg.png);
