@@ -146,17 +146,17 @@ div h2{
     cursor: pointer;
 }
 .des-0{
-    background-image: url(/img/ingressos.png);
+    background-image: url(./img/ingressos.png);
     background-size: cover;
     background-position: center;
 }
 .des-1{
-    background-image: url(/img/lojaPg.png);
+    background-image: url(./img/lojaPg.png);
     background-size: cover;
     background-position: center;
 }
 .des-2{
-    background-image: url(/img/listaMercado.png);
+    background-image: url(./img/listaMercado.png);
     background-size: cover;
     background-position: center;}
 
@@ -179,50 +179,50 @@ div h2{
     cursor: pointer;
 }
 .pro-0{
-    background-image: url(/img/projetoXDevs.png);
+    background-image: url(./img/projetoXDevs.png);
     background-size: cover;
     background-position: center;
     
 }
 .pro-1{
-    background-image: url(/img/projetoQrCode.png);
+    background-image: url(./img/projetoQrCode.png);
     background-size: cover;
     background-position-x: -130px;
 
 }
 
 .pro-2{
-    background-image: url(/img/jogoPedraPapelTesoura.png);
+    background-image: url(./img/jogoPedraPapelTesoura.png);
     background-size: cover;
     background-position: center;
 }
 .pro-3{
-    background-image: url(/img/card.png);
+    background-image: url(./img/card.png);
     background-size: cover;
     background-position: center;
 }
 .pro-4{
-    background-image: url(/img/formulario.png);
+    background-image: url(./img/formulario.png);
     background-size: cover;
     background-position: center;
 }
 .pro-5{
-    background-image: url(/img/Link-Dev.png);
+    background-image: url(./img/Link-Dev.png);
     background-size: cover;
     background-position: center;
 }
 .pro-6{
-    background-image: url(/img/ingressos.png);
+    background-image: url(./img/ingressos.png);
     background-size: cover;
     background-position: center;
 }
 .pro-7{
-    background-image: url(/img/lojaPg.png);
+    background-image: url(./img/lojaPg.png);
     background-size: cover;
     background-position: center;
 }
 .pro-8{
-    background-image: url(/img/listaMercado.png);
+    background-image: url(./img/listaMercado.png);
     background-size: cover;
     background-position: center;
 }
