@@ -146,17 +146,17 @@ div h2{
     cursor: pointer;
 }
 .des-0{
-    background-image: url(./img/ingressos.png);
+    background-image: url(img/ingressos.png);
     background-size: cover;
     background-position: center;
 }
 .des-1{
-    background-image: url(./img/lojaPg.png);
+    background-image: url(img/lojaPg.png);
     background-size: cover;
     background-position: center;
 }
 .des-2{
-    background-image: url(./img/listaMercado.png);
+    background-image: url(img/listaMercado.png);
     background-size: cover;
     background-position: center;}
 
