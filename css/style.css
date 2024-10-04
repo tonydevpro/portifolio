@@ -99,6 +99,8 @@ div h2{
 
     
 }
+.box img:hover{
+    transform: scale(1.05);}
 
 .box img{
     position: relative;
