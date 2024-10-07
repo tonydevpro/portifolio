@@ -43,3 +43,14 @@ document.getElementById("menu").addEventListener("click", function() {
         sidebar.style.left = "0px";
     }
 });
+
+
+
+let closeBtns = document.getElementsByClassName('x');
+
+Array.from(closeBtns).forEach((btn) => {
+    btn.addEventListener('click', () => {
+        let sidebar = document.getElementById('sidebar');
+        sidebar.style.left = '-25%';
+    });
+});
