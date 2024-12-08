@@ -44,11 +44,8 @@ header h1{
 #dev{
     align-content: center;
     text-align:end;
-    
-
+    margin: 10%;
 }
-
-
 
 h2{
     display: flex;
